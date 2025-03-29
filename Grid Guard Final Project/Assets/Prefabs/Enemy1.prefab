@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5250769741701320005}
   - component: {fileID: 8845898929481035299}
   - component: {fileID: 5262121216095150877}
+  - component: {fileID: 1371492775087613286}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -108,3 +109,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1371492775087613286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962071182235815980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af45508aaac8f9f4e94f3f4dd8b9496a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  speed: 3
+  reachThreshold: 0.1
