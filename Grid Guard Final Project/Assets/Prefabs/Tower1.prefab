@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6739843685112293753}
   - component: {fileID: 3234155036673498698}
   - component: {fileID: 4973919847859068039}
+  - component: {fileID: 8340422103334858295}
   m_Layer: 0
   m_Name: Tower1
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 2, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,3 +109,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8340422103334858295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7816067127919943695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c545ddf09eed14f4a9fd438785a1f4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 979d7dadfaed32c419eb7c9cf32e0db6, type: 2}
+  currentRange: 0
+  currentAttackSpeed: 0
+  currentDamage: 0
+  towerHead: {fileID: 5944809029588095881, guid: 95faea14dcd31a64d8dec6120c53a751, type: 3}
+  projectilePrefab: {fileID: 6156218073638337976, guid: e7ee36097503a8e478a3b767cfa257c9, type: 3}
